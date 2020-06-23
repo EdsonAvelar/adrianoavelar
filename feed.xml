@@ -1,4 +1,269 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://www.adrianoavelar.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.adrianoavelar.com/" rel="alternate" type="text/html" /><updated>2020-06-23T17:55:32-03:00</updated><id>http://www.adrianoavelar.com/feed.xml</id><title type="html">DataBlow</title><subtitle>Um blog para falar de dados</subtitle><entry><title type="html">Primeiro Post</title><link href="http://www.adrianoavelar.com/myfirst-post/" rel="alternate" type="text/html" title="Primeiro Post" /><published>2019-01-18T00:00:00-03:00</published><updated>2019-01-18T00:00:00-03:00</updated><id>http://www.adrianoavelar.com/myfirst-post</id><content type="html" xml:base="http://www.adrianoavelar.com/myfirst-post/">&lt;p&gt;Olá. Me chamo Adriano Avelar, sou Engenheiro da Computação formado pela Universidade Federal do Pará. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://www.adrianoavelar.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.adrianoavelar.com/" rel="alternate" type="text/html" /><updated>2020-06-23T19:57:30-03:00</updated><id>http://www.adrianoavelar.com/feed.xml</id><title type="html">DataBlow</title><subtitle>Um blog para falar de dados</subtitle><entry><title type="html">Curso de Spark e Python: Aula 01 - Introdução</title><link href="http://www.adrianoavelar.com/aula01_Introcucao/" rel="alternate" type="text/html" title="Curso de Spark e Python: Aula 01 - Introdução" /><published>2019-06-23T00:00:00-03:00</published><updated>2019-06-23T00:00:00-03:00</updated><id>http://www.adrianoavelar.com/aula01_Introcucao</id><content type="html" xml:base="http://www.adrianoavelar.com/aula01_Introcucao/">&lt;h1 id=&quot;curso-de-spark-e-python&quot;&gt;Curso de Spark e Python&lt;/h1&gt;
+&lt;h2 id=&quot;aula-01---introdução&quot;&gt;Aula 01 - Introdução&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+Olá, seja bem vindo ao Curso de Spark e Python do Adriano Avelar. Caso encontre algum erro ou deseja entrar em contato, mande um e-mail para [eam.avelar@gmail.com]&lt;/p&gt;
+
+&lt;p&gt;Nesse série de artigos, você irá aprender como usar o Spark com Python, incluindo Spark Streaming, Machine Learningg, Spark 2.0, Spark Sql e muito mais.&lt;/p&gt;
+
+&lt;h4 id=&quot;habilidades-recomendadas&quot;&gt;Habilidades Recomendadas&lt;/h4&gt;
+&lt;p&gt;Para que esse curso seja proveitoso para você, são necessárias as seguintes habilidades:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Básico de Programação (principalmente python)
+Se você sabe criar um função, usar um loop while ou for, saber um poucos de listas. Já está valendo. Se não sabe nada dessas coisas sugiro procurar no youtube algum curso básico de Python.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Interesse em Big Data. 
+Analisar grandes dados é diferente de analisar pequenos dados. E quando falo grande, digo na ordem de &lt;code class=&quot;highlighter-rouge&quot;&gt;terabytes&lt;/code&gt; ou vários &lt;code class=&quot;highlighter-rouge&quot;&gt;gigabytes&lt;/code&gt;. Se o seu interesse não é analisar grandes massas de dados, esse não é o curso ideal.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;o-que-não-vamos-ver&quot;&gt;O que não vamos ver&lt;/h4&gt;
+&lt;p&gt;Como disse, esse curso é voltado para Big Data. Portanto, não iremos trabalhar com bibliotecas comuns do python, como &lt;code class=&quot;highlighter-rouge&quot;&gt;numpy&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;pandas&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;scikit-learn&lt;/code&gt; etc.
+Essas bibliotecas não conseguem manipular uma grande massa de dados. Mesmo assim, iremos utilizar o &lt;code class=&quot;highlighter-rouge&quot;&gt;pandas&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;matplotlib&lt;/code&gt; para melhorar a visualização de alguns resultados menores.&lt;/p&gt;
+
+&lt;p&gt;Todo o curso será feito em &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter&lt;/code&gt;, mas você pode utilizar qualquer outra forma de programar o Spark.&lt;/p&gt;
+
+&lt;h4 id=&quot;principais-topicos&quot;&gt;Principais Topicos&lt;/h4&gt;
+&lt;p&gt;Veremos uma série de tópicos nesse curso, abaixo descrevo apenas os principais.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Conceitos de Spark&lt;/li&gt;
+  &lt;li&gt;Spark Dataframes&lt;/li&gt;
+  &lt;li&gt;Spark Sql&lt;/li&gt;
+  &lt;li&gt;Introdução à Machine Learning em BigData&lt;/li&gt;
+  &lt;li&gt;Regressão Linear&lt;/li&gt;
+  &lt;li&gt;Regressão Logística&lt;/li&gt;
+  &lt;li&gt;Àrvores de Decisão&lt;/li&gt;
+  &lt;li&gt;Random Forest&lt;/li&gt;
+  &lt;li&gt;Gradient Boost Machine&lt;/li&gt;
+  &lt;li&gt;K-means Clustering&lt;/li&gt;
+  &lt;li&gt;Processamento de Linguagem Natural (Natural Language Processing)&lt;/li&gt;
+  &lt;li&gt;Spark Streaming&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Também veremos um pouco sobre pipeline e validação cruzada.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+Link da Próxima Aula:&lt;br /&gt;
+&lt;a href=&quot;/aula02_helloworld&quot;&gt;Aula 02 &lt;/a&gt;&lt;/p&gt;</content><author><name>adriano</name></author><category term="featured" /><summary type="html">Curso de Spark e Python Aula 01 - Introdução Olá, seja bem vindo ao Curso de Spark e Python do Adriano Avelar. Caso encontre algum erro ou deseja entrar em contato, mande um e-mail para [eam.avelar@gmail.com]</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://miro.medium.com/proxy/0*o3JKcXgKhRaTl3hY.png" /></entry><entry><title type="html">Curso de Spark e Python: Aula 02 - Hello World</title><link href="http://www.adrianoavelar.com/aula02_helloworld/" rel="alternate" type="text/html" title="Curso de Spark e Python: Aula 02 - Hello World" /><published>2019-06-23T00:00:00-03:00</published><updated>2019-06-23T00:00:00-03:00</updated><id>http://www.adrianoavelar.com/aula02_helloworld</id><content type="html" xml:base="http://www.adrianoavelar.com/aula02_helloworld/">&lt;h1 id=&quot;curso-de-spark-e-python&quot;&gt;Curso de Spark e Python&lt;/h1&gt;
+&lt;h2 id=&quot;aula-02---hello-world&quot;&gt;Aula 02 - Hello World&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Para essa aula, você já deverá ter um ambiente &lt;code class=&quot;highlighter-rouge&quot;&gt;spark&lt;/code&gt; instalado e configurado. &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;O primeiro passo é iniciar uma sessão Spark. Mas antes, precisamos achar o spark que está instalado na máquina. &lt;br /&gt;
+A biblioteca &lt;code class=&quot;highlighter-rouge&quot;&gt;findspark&lt;/code&gt; faz esse trabalho para nós. Caso não tenha ela instalado, você pode digitar no terminal:&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pip install findspark&lt;/code&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;ou no próprio jupyter: &lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;findspark&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Requirement already satisfied: findspark in /home/adriano/anaconda3/lib/python3.7/site-packages (1.4.2)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;findspark&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;findspark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Soment após o &lt;code class=&quot;highlighter-rouge&quot;&gt;findspark.init()&lt;/code&gt; que o pacote pyspark estará disponivel para importação (comando a seguir)&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pyspark.sql&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SparkSession&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Agora, vamos criar uma sessão spark.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#appName: Nome da aplicação
+#getOrCreate: Pega uma sessão se ela já existir, caso contrário criar uma nova 
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;spark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SparkSession&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;builder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;appName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;HelloWorld&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getOrCreate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Agora vamos importar alguns dados de um arquivo e criar um DataFrame Spark. Você pode utilizar o arquivo que desejar, no formato que desejar.&lt;br /&gt;
+Vamos começar um simples Arquivo &lt;code class=&quot;highlighter-rouge&quot;&gt;json&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{&quot;name&quot;:&quot;Michael&quot;}
+{&quot;name&quot;:&quot;Andy&quot;, &quot;age&quot;:30}
+{&quot;name&quot;:&quot;Justin&quot;, &quot;age&quot;:19}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'uploads/data/people.json'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+----+-------+
+| age|   name|
++----+-------+
+|null|Michael|
+|  30|   Andy|
+|  19| Justin|
++----+-------+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Perceba que o Spark automaticamente substitui os valores faltosos como &lt;code class=&quot;highlighter-rouge&quot;&gt;null&lt;/code&gt;&lt;br /&gt;
+Para imprimir o Schema do DataFrame utilize a função &lt;code class=&quot;highlighter-rouge&quot;&gt;printSchema&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;printSchema&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;root
+ |-- age: long (nullable = true)
+ |-- name: string (nullable = true)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;O Spark também já inferiu os dados de acordo com o tipo que está sendo armazenado. &lt;br /&gt;
+Outro comando útil é o &lt;code class=&quot;highlighter-rouge&quot;&gt;columns&lt;/code&gt;, que não é uma função e sim um parâmetro do &lt;code class=&quot;highlighter-rouge&quot;&gt;dataframe&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;columns&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;['age', 'name']
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Para saber um resumo básico estatistico dos dados, podemos usar a função &lt;code class=&quot;highlighter-rouge&quot;&gt;describe&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DataFrame[summary: string, age: string, name: string]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Aqui vem um detalhe interessante. O Spark usa o princípio &lt;code class=&quot;highlighter-rouge&quot;&gt;Lazy Evaluation&lt;/code&gt;. Ou seja, ele não executa as transformações até que uma ação é chamada. &lt;br /&gt;
+Nesse caso, describe é um transformação, portanto, não é executada até que uma ação seja solicitada. Essa estratégia permite acumular transformações e executar todas de uma única vez, o que traz um grande ganho de desempenho. &lt;br /&gt;&lt;br /&gt;
+Para ver o resultado do &lt;code class=&quot;highlighter-rouge&quot;&gt;describe()&lt;/code&gt; use o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;show()&lt;/code&gt;. Como show é uma ação, as transformações que vem antes serão executadas.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+-------+------------------+-------+
+|summary|               age|   name|
++-------+------------------+-------+
+|  count|                 2|      3|
+|   mean|              24.5|   null|
+| stddev|7.7781745930520225|   null|
+|    min|                19|   Andy|
+|    max|                30|Michael|
++-------+------------------+-------+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Que tal ver os resultados através do Pandas?&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toPandas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;summary&lt;/th&gt;
+      &lt;th&gt;age&lt;/th&gt;
+      &lt;th&gt;name&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;count&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;mean&lt;/td&gt;
+      &lt;td&gt;24.5&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;stddev&lt;/td&gt;
+      &lt;td&gt;7.7781745930520225&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;td&gt;min&lt;/td&gt;
+      &lt;td&gt;19&lt;/td&gt;
+      &lt;td&gt;Andy&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;td&gt;max&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+      &lt;td&gt;Michael&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Muito melhor não é? &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;⛔ Mas cuidado. O &lt;code class=&quot;highlighter-rouge&quot;&gt;pandas&lt;/code&gt; só pode ser utilizado quando os resultados são pequenos. Ele não foi feito para grandes massas de dados. Utilize com muita cautela. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Caso você não consiga rodar o comando acima, é possível que você não tenha o pandas em seu computador. O comando a seguir resolve isso.&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pandas&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Requirement already satisfied: pandas in /home/adriano/anaconda3/lib/python3.7/site-packages (1.0.1)
+Requirement already satisfied: pytz&amp;gt;=2017.2 in /home/adriano/anaconda3/lib/python3.7/site-packages (from pandas) (2019.3)
+Requirement already satisfied: numpy&amp;gt;=1.13.3 in /home/adriano/anaconda3/lib/python3.7/site-packages (from pandas) (1.18.1)
+Requirement already satisfied: python-dateutil&amp;gt;=2.6.1 in /home/adriano/anaconda3/lib/python3.7/site-packages (from pandas) (2.8.1)
+Requirement already satisfied: six&amp;gt;=1.5 in /home/adriano/anaconda3/lib/python3.7/site-packages (from python-dateutil&amp;gt;=2.6.1-&amp;gt;pandas) (1.14.0)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;criando-o-próprio-schema&quot;&gt;Criando o próprio Schema&lt;/h2&gt;
+
+&lt;p&gt;Muitas vezes você necessita que seu dados estejam de tipos diferentes dos que o Spark inferiu. &lt;br /&gt;
+Por exemplo, em nosso caso, ele inferiu que a coluna &lt;code class=&quot;highlighter-rouge&quot;&gt;age&lt;/code&gt; é do tipo &lt;strong&gt;long&lt;/strong&gt;, se quisermos mudar para &lt;strong&gt;int&lt;/strong&gt;, por exemplo, precisamos criar nosso proprio &lt;code class=&quot;highlighter-rouge&quot;&gt;Schema&lt;/code&gt;.&lt;br /&gt;
+Então é isso que vamos fazer.&lt;br /&gt;
+Primeiramente importamos nossos pacotes necessários.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pyspark.sql.types&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StructField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StringType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                              &lt;span class=&quot;n&quot;&gt;IntegerType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StructType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Depois criamos uma lista com &lt;code class=&quot;highlighter-rouge&quot;&gt;StructFields&lt;/code&gt; informando 3 parâmetros em cada:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1: Nome da coluna alvo.&lt;/li&gt;
+  &lt;li&gt;2: Tipo de dados.&lt;/li&gt;
+  &lt;li&gt;3: Se o campo pode ser nulo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data_schema&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StructType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;StructField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'age'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IntegerType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+              &lt;span class=&quot;n&quot;&gt;StructField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StringType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Agora, vamos carregar novamente os dados mas dessa vez passando o nosso schema criado.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'uploads/data/people.json'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;schema&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data_schema&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;printSchema&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;root
+ |-- age: integer (nullable = true)
+ |-- name: string (nullable = true)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>adriano</name></author><category term="featured" /><summary type="html">Curso de Spark e Python Aula 02 - Hello World Para essa aula, você já deverá ter um ambiente spark instalado e configurado.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://files.keepingcurrentmatters.com/wp-content/uploads/2020/05/05155523/20200506-KCM-Shar.jpg" /></entry><entry><title type="html">Primeiro Post</title><link href="http://www.adrianoavelar.com/myfirst-post/" rel="alternate" type="text/html" title="Primeiro Post" /><published>2019-01-18T00:00:00-03:00</published><updated>2019-01-18T00:00:00-03:00</updated><id>http://www.adrianoavelar.com/myfirst-post</id><content type="html" xml:base="http://www.adrianoavelar.com/myfirst-post/">&lt;p&gt;Olá. Me chamo Adriano Avelar, sou Engenheiro da Computação formado pela Universidade Federal do Pará. 
 Tenho Doutorado em Computação pela Universidade Federal de Pernambuco. Já morei em Belém, Recife e agora estou em São Paulo.&lt;/p&gt;
 
 &lt;p&gt;Já fui &lt;code class=&quot;highlighter-rouge&quot;&gt;Programador&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Professor Universitário&lt;/code&gt; e já tive uma &lt;code class=&quot;highlighter-rouge&quot;&gt;escola de programação&lt;/code&gt; para crianças.&lt;/p&gt;
